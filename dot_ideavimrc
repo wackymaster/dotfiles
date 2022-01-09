@@ -1,0 +1,51 @@
+"Examples here: https://jb.gg/share-ideavimrc
+"Simple vim settings
+set relativenumber
+set number
+set incsearch
+set showcmd
+set scrolloff=5
+set visualbell
+"Searching smart case
+set ignorecase
+set smartcase
+set scrolloff=5 sidescrolloff=10
+"set clipboard=unnamedplus,unnamed,ideaput
+set surround
+set commentary
+set NERDTree
+set ideajoin
+set idearefactormode=keep
+"leader is space
+let mapleader = " "
+
+"Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+map <leader>ra <Action>(ReformatCode)
+map <leader>rn <Action>(RefactoringMenu)
+
+"Plug-in shortcuts
+nnoremap <C-n> :NERDTreeToggle <CR>
+nnoremap <C-h> :NERDTree <CR>
+"Ease-of use
+nnoremap <leader>n :noh<CR>
+nnoremap <C-a> ggVG
+"Copy-paste from system
+vnoremap <leader>y "*y
+vnoremap <leader>yy "*y|y
+nnoremap <leader>pp "*p
+"Line editing
+nnoremap <leader>cl 0v$y
+nnoremap <leader>dl 0v$yo<ESC>pjddk
+nnoremap <leader>sl 0v$
+nnoremap <leader>xl 0v$d
+nnoremap <leader>pl o<ESC>pjddk
+nnoremap <leader>ss ^v$
+nnoremap <leader>cc gcc
+"Adding newlines without leaving normal mode
+nnoremap <leader>o o<ESC>
+nnoremap <leader>O O<ESC>
+"Beginning/end of line
+"Control backspace - may not work in TUI
+inoremap <C-BS> <ESC> dBi
+nnoremap <C-BS> dB
+
