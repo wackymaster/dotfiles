@@ -195,9 +195,9 @@ EOF
 "Vimtex
 "-----------
 let g:tex_flavor='latex'
-let g:vimtex_view_method='mupdf'
-"let g:vimtex_view_general_viewer = 'mupdf'
-"let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+let g:vimtex_view_general_viewer = 'SumatraPDF'
+let g:vimtex_view_general_options
+      \ = '-reuse-instance -forward-search @tex @line @pdf'
 let g:vimtex_quickfix_mode=0
 "let maplocalleader = " "
 "set conceallevel=1
@@ -259,6 +259,8 @@ nnoremap _V :exe 'edit' stdpath('config').'/init.vim'<CR>
 nnoremap <leader>l :lopen <CR>
 nnoremap <leader>w <C-w><C-w>
 nnoremap <leader>e :ALENextWrap<CR>
+nnoremap <leader>0 <C-W><
+nnoremap <leader>9 <C-W>>
 "Ease-of use
 nnoremap <leader>n :noh<CR>
 nnoremap <C-a> ggVG
@@ -272,7 +274,7 @@ nnoremap <leader>lm :colorscheme onedark <CR>
 "Line editing
 nnoremap <leader>cl 0v$y
 nnoremap <leader>dl 0v$yo<ESC>pjddk
-nnoremap <leader>sl 0v$
+"nnoremap <leader>sl 0v$
 nnoremap <leader>xl 0v$d
 nnoremap <leader>pl o<ESC>pjddk
 nnoremap <leader>ss ^v$
