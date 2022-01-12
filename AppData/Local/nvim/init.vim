@@ -17,6 +17,8 @@ set colorcolumn=80
 set showcmd
 set cmdheight=2
 set scrolloff=5
+set autoindent
+set updatetime=300
 "set shell=powershell
 "set nohlsearch
 let &undodir=stdpath('data').'/undodir'
@@ -35,8 +37,21 @@ call plug#begin(stdpath('data').'/plugged')
  Plug 'preservim/nerdcommenter'
  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
  Plug 'nvim-treesitter/playground'
- Plug 'ms-jpq/coq_nvim'
- Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+" Plug 'ms-jpq/coq_nvim'
+" Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+ "nvim-cmp autocomplete
+ Plug 'saadparwaiz1/cmp_luasnip' 
+ Plug 'L3MON4D3/LuaSnip' 
+ Plug 'neovim/nvim-lspconfig'
+ Plug 'hrsh7th/cmp-nvim-lsp'
+ Plug 'hrsh7th/cmp-buffer'
+ Plug 'hrsh7th/cmp-path'
+ Plug 'hrsh7th/cmp-cmdline'
+ Plug 'hrsh7th/nvim-cmp'
+" For ultisnips users.
+ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
+ Plug 'SirVer/ultisnips'
+ Plug 'honza/vim-snippets'
  "LaTeX!
  Plug 'lervag/vimtex' 
  "Navigation
@@ -46,12 +61,9 @@ call plug#begin(stdpath('data').'/plugged')
  Plug 'nvim-lua/plenary.nvim'
  Plug 'nvim-telescope/telescope.nvim'
  Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
- ""Snippets
- Plug 'SirVer/ultisnips'
- Plug 'honza/vim-snippets'
  "File and undo tree
- "Plug 'preservim/nerdtree'
- Plug 'ms-jpq/chadtree' 
+ Plug 'preservim/nerdtree'
+ "Plug 'ms-jpq/chadtree' 
  Plug 'mbbill/undotree'
  ""Git Integration
  Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -73,9 +85,10 @@ filetype plugin on
 colorscheme onedark
 highlight ColorColumn ctermbg=238
 "Nice background color (slightly dark)
-highlight Normal guibg=#26262a 
-"highlight Normal guibg=none
-autocmd VimEnter * CHADopen
+"highlight Normal guibg=#26262a 
+highlight Normal guibg=none
+"autocmd VimEnter * CHADopen
+autocmd VimEnter * NERDTree
 
 lua << EOF
 require('ts_config')
@@ -92,6 +105,7 @@ let g:ale_fixers = {
 \   'python': ['black'],
 \   'html': ['prettier'],
 \   'css': ['prettier'],
+\   'java': ['uncrustify'],
 \   'javascript': ['prettier'],
 \   'json': ['prettier']
 \}
@@ -132,7 +146,7 @@ let s:enabled = 0
 
 function! ToggleVista()
 if s:enabled
-	:Vista coc
+	:Vista nvim_lsp
 	let s:enabled = 0
 else
 	:Vista!!
@@ -144,7 +158,8 @@ endfunction
 " --------
 "Plug-in shortcuts
 nnoremap <leader>rr :NERDTreeFind <CR>
-nnoremap <C-n> :NERDTreeToggle <CR>
+nnoremap <C-n> :CHADopen<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <leader>v :call ToggleVista() <CR>
 nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap <leader>e :ALENextWrap<CR>
@@ -161,6 +176,7 @@ nnoremap <leader>9 <C-W>>
 "Ease-of use
 nnoremap <leader>n :noh<CR>
 nnoremap <C-a> ggVG
+nnoremap <leader>we :!explorer . <CR>
 "Copy-paste from system
 vnoremap <leader>y "*y
 vnoremap <leader>yy "*y|y
@@ -168,6 +184,7 @@ nnoremap <leader>pp "*p
 "Night-mode light-mode
 nnoremap <leader>nm :highlight Normal guibg=#26262a <CR>
 nnoremap <leader>lm :colorscheme onedark <CR>
+nnoremap <leader>tm :highlight Normal guibg=none <CR>
 "Line editing
 nnoremap <leader>cl 0v$y
 nnoremap <leader>dl 0v$yo<ESC>pjddk
