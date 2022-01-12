@@ -37,6 +37,8 @@ call plug#begin(stdpath('data').'/plugged')
  Plug 'preservim/nerdcommenter'
  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
  Plug 'nvim-treesitter/playground'
+ "Coc for specific langauges
+ Plug 'neoclide/coc.nvim', {'branch': 'release', 'for': 'java'}
 " Plug 'ms-jpq/coq_nvim'
 " Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
  "nvim-cmp autocomplete
@@ -63,6 +65,8 @@ call plug#begin(stdpath('data').'/plugged')
  Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
  "File and undo tree
  Plug 'preservim/nerdtree'
+ Plug 'tiagofumo/vim-nerdtree-syntax-highlight' 
+ Plug 'ryanoasis/vim-devicons'
  "Plug 'ms-jpq/chadtree' 
  Plug 'mbbill/undotree'
  ""Git Integration
@@ -84,6 +88,7 @@ filetype plugin on
 "set background=dark
 colorscheme onedark
 highlight ColorColumn ctermbg=238
+highlight LineNr guifg=white
 "Nice background color (slightly dark)
 "highlight Normal guibg=#26262a 
 highlight Normal guibg=none
@@ -104,7 +109,10 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \   'python': ['black'],
 \   'html': ['prettier'],
+\   'c': ['uncrustify'],
 \   'css': ['prettier'],
+\   'cpp': ['uncrustify'],
+\   'fortran': ['remove_trailing_lines', 'trim_whitespace'],
 \   'java': ['uncrustify'],
 \   'javascript': ['prettier'],
 \   'json': ['prettier']
@@ -208,4 +216,4 @@ nnoremap <leader>O O<ESC>x
 "Control backspace - may not work in TUI
 inoremap <C-BS> <ESC> dBi
 nnoremap <C-BS> dB
-
+nnoremap <leader>ja :CocAction <CR>
