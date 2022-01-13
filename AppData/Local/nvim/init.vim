@@ -84,15 +84,13 @@ call plug#begin(stdpath('data').'/plugged')
 call plug#end()
 
 filetype plugin on
-"set guifont=JetBrains\ Mono
-"set background=dark
+
+"Appearances
 colorscheme onedark
 highlight ColorColumn ctermbg=238
 highlight LineNr guifg=white
 "Nice background color (slightly dark)
-"highlight Normal guibg=#26262a 
 highlight Normal guibg=none
-"autocmd VimEnter * CHADopen
 autocmd VimEnter * NERDTree
 
 lua << EOF
@@ -102,65 +100,8 @@ require('lualine_config')
 require('chadtree_config')
 EOF
 
-"ALE Settings
-let g:ale_linters = {
-\	'python':['flake8', 'bandit', 'mypy']
-\}
-let g:ale_fixers = {
-\   'python': ['black'],
-\   'html': ['prettier'],
-\   'c': ['uncrustify'],
-\   'css': ['prettier'],
-\   'cpp': ['uncrustify'],
-\   'fortran': ['remove_trailing_lines', 'trim_whitespace'],
-\   'java': ['uncrustify'],
-\   'javascript': ['prettier'],
-\   'json': ['prettier']
-\}
-
 nnoremap <leader>f <cmd>lua vim.lsp.buf.formatting()<CR>
 
-"----------
-"Snippets
-"----------
-let g:UltiSnipsExpandTrigger="<c-k>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-"----------
-"Commenting
-"----------
-filetype plugin on
-
-"-----------
-"Vimtex
-"-----------
-let g:tex_flavor='latex'
-let g:vimtex_view_general_viewer = 'SumatraPDF'
-let g:vimtex_view_general_options
-      \ = '-reuse-instance -forward-search @tex @line @pdf'
-let g:vimtex_quickfix_mode=0
-"let maplocalleader = " "
-
-"----------
-"Snippets
-"----------
-let g:UltiSnipsExpandTrigger="<c-k>"
-let g:UltiSnipsJumpForwardTrigger="<TAB>"
-let g:UltiSnipsJumpBackwardTrigger="<S-TAB>"
-
-"Vista
-let s:enabled = 0
-
-function! ToggleVista()
-if s:enabled
-	:Vista nvim_lsp
-	let s:enabled = 0
-else
-	:Vista!!
-	let s:enabled = 1
-endif
-endfunction
 " --------
 " Mappings
 " --------
