@@ -1,6 +1,6 @@
 "ALE Settings
 let g:ale_linters = {
-\	'python':['flake8', 'bandit', 'mypy']
+\	'python':['flake8', 'bandit', 'mypy'],
 \}
 let g:ale_fixers = {
 \   'python': ['black'],

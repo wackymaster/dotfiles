@@ -1,11 +1,21 @@
 local nvim_lsp = require('lspconfig')
+-- Signature helper config
+ cfg = {
+  doc_lines = 0, 
+  hint_enable = false, -- virtual hint enable
+  transparency = nil, -- disabled by default, allow floating win transparent value 1~100
+}
+
+-- recommended:
+require'lsp_signature'.setup(cfg) -- no need to specify bufnr if you don't use toggle_key
 
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
-
+  -- Signature helper
+  require'lsp_signature'.on_attach(cfg, bufnr) 
   -- Enable completion triggered by <c-x><c-o>
   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
@@ -36,10 +46,10 @@ end
 local servers = { 'fortls', 'bashls', 'rust_analyzer', 'pyright', 'tsserver', 'html', 'kotlin_language_server', 'cssls'} 
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup{
-    on_attach = on_attach,
-    flags = {
-      debounce_text_changes = 150,
-    }
+	on_attach = on_attach,
+	flags = {
+	  debounce_text_changes = 150,
+	}
   }
 end
 

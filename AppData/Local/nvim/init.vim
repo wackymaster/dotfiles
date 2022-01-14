@@ -32,13 +32,15 @@ let mapleader=" "
 call plug#begin(stdpath('data').'/plugged')
  "Syntax and autocomplete
  Plug 'neovim/nvim-lspconfig' 
+ "Plug 'williamboman/nvim-lsp-installer'
+ Plug 'ray-x/lsp_signature.nvim'
  Plug 'tpope/vim-surround'
  Plug 'dense-analysis/ale'
  Plug 'preservim/nerdcommenter'
  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
  Plug 'nvim-treesitter/playground'
  "Coc for specific langauges
- Plug 'neoclide/coc.nvim', {'branch': 'release', 'for': 'java'}
+ Plug 'neoclide/coc.nvim', {'branch': 'release', 'for': ['java', 'kotlin']}
 " Plug 'ms-jpq/coq_nvim'
 " Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
  "nvim-cmp autocomplete
