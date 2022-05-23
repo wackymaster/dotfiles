@@ -1,0 +1,48 @@
+{
+  "pyright.enable": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.stubPath": "typings",
+  "python.analysis.typeshedPaths": [],
+  "python.analysis.diagnosticSeverityOverrides": {},
+  "python.analysis.typeCheckingMode": "basic",
+  "python.pythonPath": "python",
+  "python.venvPath": "",
+  "python.formatting.provider": "autopep8",
+  "python.formatting.blackArgs": [],
+  "python.formatting.blackPath": "black",
+  "python.formatting.blackdPath": "blackd",
+  "python.formatting.blackdHTTPURL": "",
+  "python.formatting.blackdHTTPHeaders": {},
+  "python.formatting.yapfPath": "yapf",
+  "python.formatting.yapfArgs": [],
+  "python.formatting.autopep8Path": "autopep8",
+  "python.formatting.autopep8Args": [],
+  "python.linting.enabled": true,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.displayByAle": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "json",
+    "cpp",
+    "c",
+    "java",
+    "html",
+    "css",
+    "javascript"
+  ],
+
+  "languageserver": {
+    "fortran": {
+      "command": "fortls",
+      "filetypes": ["fortran"],
+      "rootPatterns": [".fortls", ".git/"]
+    },
+    "kotlin": {
+      "command": "kotlin-language-server.bat",
+      "filetypes": ["kotlin"]
+    }
+  },
+  "clangd.path": "~\\AppData\\Local\\coc\\extensions\\coc-clangd-data\\install\\13.0.0\\clangd_13.0.0\\bin\\clangd.exe"
+}
