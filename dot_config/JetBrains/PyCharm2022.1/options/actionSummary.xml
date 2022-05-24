@@ -1,0 +1,91 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="2" l="1653325002641" />
+    </e>
+    <e n="$Paste">
+      <i c="2" l="1653325002847" />
+    </e>
+    <e n="$SelectAll">
+      <i c="1" l="1653321889203" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="1" l="1653322015227" />
+    </e>
+    <e n="AutoIndentLines">
+      <i c="13" l="1653325395161" />
+    </e>
+    <e n="ChooseRunConfiguration">
+      <i c="1" l="1653322446726" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="1" l="1653321989177" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="232" l="1653325473415" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="26" l="1653325461643" />
+    </e>
+    <e n="EditorDown">
+      <i c="26" l="1653325393488" />
+    </e>
+    <e n="EditorEnter">
+      <i c="79" l="1653325474699" />
+    </e>
+    <e n="EditorEscape">
+      <i c="3" l="1653323286225" />
+    </e>
+    <e n="EditorJoinLines">
+      <i c="2" l="1653323422059" />
+    </e>
+    <e n="EditorLeft">
+      <i c="2" l="1653323195245" />
+    </e>
+    <e n="EditorRight">
+      <i c="15" l="1653323380727" />
+    </e>
+    <e n="EditorTab">
+      <i c="5" l="1653325203621" />
+    </e>
+    <e n="EditorUp">
+      <i c="6" l="1653323565619" />
+    </e>
+    <e n="ExpandRegion">
+      <i c="1" l="1653321993907" />
+    </e>
+    <e n="QuickJavaDoc">
+      <i c="1" l="1653322415925" />
+    </e>
+    <e n="ReformatCode">
+      <i c="16" l="1653325478234" />
+    </e>
+    <e n="RenameElement">
+      <i c="2" l="1653322989899" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1653322209476" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1653321436187" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="501" l="1653325477217" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="3" l="1653322982128" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="3" l="1653327374171" />
+    </e>
+    <e n="com.jetbrains.python.sdk.PySdkPopupFactory$SwitchToSdkAction">
+      <i c="1" l="1653323011062" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$OpenIdeaVimRcAction">
+      <i c="1" l="1653322023457" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="2" l="1653325370789" />
+    </e>
+  </component>
+</application>

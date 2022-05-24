@@ -1,0 +1,8 @@
+[2022-05-24 11:53:17.649] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-24 11:53:17.658] [main] [info] update#setState idle
+[2022-05-24 11:53:17.678] [main] [info] ExtensionHostStarterWorker created
+[2022-05-24 11:53:18.574] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-24 11:53:18.851] [main] [info] Starting extension host with pid 30870 (fork() took 34 ms).
+[2022-05-24 11:53:18.851] [main] [info] ExtensionHostStarterWorker.start() took 36 ms.
+[2022-05-24 11:53:47.670] [main] [info] update#setState checking for updates
+[2022-05-24 11:53:47.770] [main] [info] update#setState idle

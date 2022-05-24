@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="2" l="1653406947011" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="12" l="1653407129288" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1653407158539" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1653406915855" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1653407146532" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="2" l="1653407211771" />
+    </e>
+  </component>
+</application>

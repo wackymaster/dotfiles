@@ -1,0 +1,500 @@
+cp ~/Documents/Sophomore/CS4120/Javalin/tests/p3.pdf .
+mv p3.pdf main.pdf
+e main.tex
+e main.tex
+e main.tex
+e main.tex
+startx
+startx
+networkctl 
+networkctl -h
+ssn
+bluetoothctl 
+clear
+systemctl enable bluetooth
+bluetoothctl power on
+bluetoothctl
+sudo reboot now
+bluetoothctl power on
+bluetoothctl
+clear
+e ~/.bashrc 
+blu
+source .bashrc 
+blu
+clear
+e ~/.bashrc 
+cd Documents/Sophomore/CS4120/Javalin/
+ls
+e tests/pa5/ack.xi 
+./pcle test/pa5/ack.xi
+./pcle tests/pa5/ack.xi
+rm grep
+ls
+make tidy
+clear
+ls
+clear
+ls
+rm package.json 
+rm package-lock.json 
+ls
+git status
+make tidy
+ls
+cat TODO 
+clear
+pass insert lle/email
+pass edit lle/email
+e ~/.config/sxhkd/sxhkdrc 
+[A
+e ~/.config/sxhkd/sxhkdrc 
+clear
+cd Downloads/
+ls
+zathura Slides_Ping_04_06.pdf 
+ping google.com
+gimp
+e ~/.config/sxhkd/sxhkdrc 
+sudo pacman -S gimp
+gimp
+e ~/.config/bspwm/bspwmrc 
+gimp
+source ~/.config/bspwm/bspwmrc 
+gimp
+e ~/.config/bspwm/bspwmrc 
+source ~/.config/bspwm/bspwmrc 
+gimp
+sudo pacman -S telegram-desktop
+stat
+sudo fdisk -l
+du
+df
+clear
+ls
+yay -S telegram-desktop
+clear
+sudo pacman -S cups
+sudo pacman -S cups-pdf
+cups
+clear
+systemctl enable cups
+sudo pacman -S system-config-printer
+system-config-printer
+cups
+clear
+systemd cups enable
+systemd enable cups
+systemctl enable cups
+systemctl start cups
+lpstat -p -d
+lpstat
+lpstat -d
+sudo pacman -S gutenprint
+sudo pacman -S scrot
+scrot
+l
+vlc 2022-05-23-214905_1920x1200_scrot.png 
+sudo pacman -S mupdf
+ls
+nautilus
+clear
+mupdf 2022-05-23-214905_1920x1200_scrot.png 
+nvim
+e
+mupdf
+clear
+zathura Downloads/Slides_Ping_04_06.pdf 
+zathura Downloads/Slides_Ping_04_06.pdf 
+ssn
+systemctl hibernate
+blue
+blu
+systemctl sleep
+e /etc/systemd/sleep.conf 
+e /etc/systemd/sleep.conf
+e /etc/systemd/logind.conf 
+locate logind.conf.d
+sudo pacman -S locate
+locate logind.conf.d
+locate hi
+sudo pacman -S pread
+sudo pacman -R locate
+sudo pacman -S mlocate
+locate
+locate logind.conf.d
+cron
+updatedb
+sudo updatedb
+locate
+locate logind.conf.d
+systemctl suspend
+e /etc/systemd/logind.conf 
+clear
+sudo pacman -S pulseaudio-bluetooth
+pavucontrol
+clear
+pulseaudio
+bluetooth
+bluetoothctl 
+clear
+pactl
+pactl list short sinks
+pacmd list-sources | grep -e 'index:' -e device.string -e 'name:'
+pulseaudio help
+man pulseaudio
+clear
+pamd
+pactl --help
+pactl stat
+pactl list sinks
+pactl list sinks |& grep -E "Sink|Ports|analog-ou"
+clear
+pactl list sinks |& grep -E "Sink|Ports|analog-ou"
+e ~/.bashrc 
+source .bashrc 
+sinks
+e ~/.bashrc 
+source .bashrc 
+setsink analog-output-speaker
+setsink analog-output-headphones
+sinks
+setsink analog-output-speaker
+source .bashrc 
+e .bashrc 
+e .bashrc 
+source .bashrc 
+setsinkhead
+sinkhead
+clear
+sinks
+sinkspeak
+sinks
+clear
+pactl list source
+pactl list sources
+e .bashrc 
+source .bashrc 
+cd Documents/
+e .bashrc 
+e ~/.bashrc 
+source ~/..bashrc 
+source ~/.bashrc 
+clear
+ls
+pass
+pass insert cornell/vpn
+pass edit cornell/vpn
+clear
+clear
+e ~/.config/polybar/config.ini 
+clear
+e ~/.config/bspwm/bspwmrc 
+pkill -USR1 -x bspwm
+ls
+mupdf 2022-05-23-214905_1920x1200_scrot.png 
+vlc 2022-05-23-214905_1920x1200_scrot.png;
+vlc 2022-05-23-214905_1920x1200_scrot.png | ;
+vlc 2022-05-23-214905_1920x1200_scrot.png | 
+vlc 2022-05-23-214905_1920x1200_scrot.png | ls
+sudo pacman -S ripgrep
+mupdf 2022-05-23-214905_1920x1200_scrot.png 
+scrot
+ls
+rm 2022-05-2*
+ls
+clear
+e
+clear
+e ~/.bashrc 
+source ~/.bashrc 
+jl
+clear
+ls
+e src/ir/IRCompUnit.java 
+cd ..
+ls
+cd Javalin/
+ls
+locate *.java
+e src/util/Pair.java 
+clear
+        echo -e "Starting MS-DOS...\n\nMicrosoft(R) MS-DOS(R) Version 6.22"
+        echo -e "             (C)Copyright Microsoft Corp 1981-1994.\n\n"
+clear
+yay -S intellij-idea-ultimate-edition
+clear
+e ~/.config/bspwm/bspwmrc 
+gcc
+clang
+yay -S visual-studio-code-bin
+code .
+startx
+vlc v4l2://:input-slave=alsa://:v4l-vdev="/dev/video0"
+man parallel
+man systemd
+cd Do
+cd Downloads/
+ls
+vlc arch.webp 
+parallel
+pacman -S webp
+sudo pacman -S webp
+sudo pacman -S parallel
+ffmpeg
+ls
+ls -a
+ls
+rm .PKGINFO 
+rm .INSTALL 
+ls
+nitrogen .
+rm arch.png 
+nitrogen 
+cp arch.png /usr/share/backgrounds/
+sudo cp arch.png /usr/share/backgrounds/
+nitrogen /usr/share/backgrounds/
+ls
+clear
+ls
+cp arch\(1\).png /usr/share/backgrounds/arch.png 
+sudo cp arch\(1\).png /usr/share/backgrounds/arch.png 
+nitrogen /usr/share/backgrounds/
+clear
+ls
+rm *.png
+rm *.webp
+clear
+ls
+cp /usr/share/backgrounds/ .
+cp /usr/share/backgrounds/arch.png .
+ls
+cd Downloads/
+ls
+sudo cp arch.png /usr/share/backgrounds/bg2.png
+nitrogen 
+nitrogen /usr/share/backgrounds/
+ls
+cd Documents/
+ls
+mkdir LLE
+mv CohenResearch/ Cohen Research
+mv CohenResearch/ "Cohen Research"
+ls
+clear
+ls
+mv Cohen\ Research/ Cohen_Research
+ls
+clear
+cd ..
+ls
+cd Downloads/
+ls
+rm Kotlin.txt 
+rm arch.png 
+cp Ping\ Slides.docx Slides_Ping_04_06.pdf ~/Documents/LLE/
+cd ~/Documents/LLE
+l
+mv Ping\ Slides.docx Script.docx
+l
+clear
+cd
+ls
+cd Documents/
+ls
+cd ~/Desktop/
+ls
+cd ..
+cd Downloads/
+ls
+rm Ping\ Slides.docx Slides_Ping_04_06.pdf 
+clear
+ls
+mv PhysicsMajorApplication.pdf ~/Documents/Sophomore/
+clear
+nautilus
+clear
+ssn
+clear
+clear
+pass edit cornell/vpn
+clear
+sudo pacman -S discord
+yay -S slack-desktop
+yay -S telegram-desktop
+clear
+cd Documents/Sophomore/
+mupdf PhysicsMajorApplication.pdf 
+hwclock --systohc
+timedatectl set-ntp true
+sudo pacman -S autorandr
+autorandr
+autorandr --h
+sudo pacman -S arandr
+arandr
+clear
+clear
+ls
+htop
+clear
+kill discord
+jobs
+jobs
+ps aux
+ps aux | grep discord
+clear
+discord
+ps aux | grep discord
+kill 8837
+ps aux | grep discord
+clear
+htop
+sudo pacman -S lyn
+sudo pacman -S lynx
+lynx
+clear
+lynx google.com
+clear
+autorandr save default
+autorandr
+autorandr --save default
+autorandr
+redshift
+$ pkill -USR1 redshift
+pkill -USR1 redshift
+e ~/.config/redshift/redshift.conf 
+redshift
+clear
+systemctl enable redshift
+clear
+clear
+jl
+ls
+git status
+clear
+e
+e
+vi
+vim
+vim
+nvim
+e ~/.config/bspwm/bspwmrc 
+ps aux | grep redshift
+clear
+e ~/.config/bspwm/bspwmrc 
+less ~/.config/sxhkd/sxhkdrc 
+cat ~/.config/sxhkd/sxhkdrc 
+clear
+tac ~/.config/sxhkd/sxhkdrc 
+pkill -USR1 -x bspwm
+ls
+clear
+e ~/.config/polybar/config.ini 
+pkill -USR1 -x bspwm
+alsamixer
+e ~/.config/polybar/config.ini 
+polybar
+networkctl 
+lspci
+clear
+NetworkManager 
+NetworkManager --help
+nmcli device wifi list
+e ~/.bashrc 
+source ~/.bashrc 
+wifils
+lswifi
+clear
+e ~/.bashrc 
+source ~/.bashrc 
+lswifi
+e ~/.bashrc 
+source ~/.bashrc 
+lswifi
+cat ~/.bashrc 
+cd ~/Documents/Cohen_Research/CORN/
+clear
+ls
+git status
+e lattice/correlated_polarized.py 
+python main.py 
+python -m pip install matplotlib
+python -m pip install scipy
+python main.py 
+python -m pip install sklearn
+python main.py 
+python -m pip install seaborn
+python -m pip install black
+python main.py 
+ls
+mkdir outputs
+git status
+ls -a
+e .gitignore 
+python main.py 
+ls
+cd outputs/
+ls
+cd 05-24-22-16\,\ Q\=0.9/
+ls
+zathura 0.03/init.pdf 
+fg
+cd ../..
+python main.py 
+zathura outputs/05-24-22-16\,\ Q\=0.9/0.03/init.pdf 
+fg
+clear
+ls
+cd ..
+git clone https://github.coecis.cornell.edu/wyw6/CORN_data.git
+ls
+mv CORN/histogram_all.csv CORN_data/
+mv CORN/rerun_all.csv CORN_data/
+cd CORN_data/
+ls
+ls
+mkdir scripts
+mv *.py scripts/
+ls
+mv histogram_all.csv histogram_4_rule.csv 
+mv rerun_all.csv shear_modulus_4_rule.csv
+ls
+mv histogram_4_rule.csv 4rule_histogram.csv
+mv shear_modulus_4_rule.csv 4rule_shearmodulus.csv
+clear
+git status
+git pull
+git status
+git commit -m "Add recent data files"
+git push
+git add --all
+git commit -m "Add recent data files"
+git push
+cd Downloads/
+ls
+rm Shear\ Modulus\ .xlsx 
+clear
+ls
+clear
+cd /mnt/
+ls
+cd /dev/lsblk
+lsblk
+sudo mkdir /media/usb
+sudo mount /dev/sda /media/usb
+sudo mkdir /media
+sudo mkdir /media/usb
+sudo mount /dev/sda /media/usb
+cd /media/usb/
+ls
+sudo mount /dev/sda2 /media/usb
+ls
+sudo umount /media/usb
+sudo umount /media/usb
+cd 
+sudo umount /media/usb
+sudo mount /dev/sda2 /media/usb
+sudo umount /media/usb
+sudo mount /dev/sda1 /media/usb
+git status
+exit

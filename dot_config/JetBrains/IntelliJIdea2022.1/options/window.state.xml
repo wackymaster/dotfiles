@@ -1,0 +1,15 @@
+<application>
+  <component name="WindowManager">
+    <frame x="6" y="48" width="1906" height="1144" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="747" y="393" key="FileChooserDialogImpl" timestamp="1653406923724">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="747" y="393" key="FileChooserDialogImpl/0.0.1920.1200" timestamp="1653406923724" />
+    <state x="499" y="620" width="987" height="1144" key="WELCOME_SCREEN" timestamp="1653406926618">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="499" y="620" width="987" height="1144" key="WELCOME_SCREEN/0.0.1920.1200" timestamp="1653406926618" />
+  </component>
+</application>
