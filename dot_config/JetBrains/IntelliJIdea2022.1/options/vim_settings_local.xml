@@ -1,20 +1,57 @@
 <application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">ODQw</entry>
+        <entry encoding="base64">MTYz</entry>
+      </history-cmd>
+    </history>
+  </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Documents/Sophomore/CS4120/Javalin/src/irgen/IRRearrange.kt" timestamp="1653665733994">
+        <mark key="'" line="115" column="4" />
+        <mark key="[" line="136" column="25" />
+        <mark key="]" line="136" column="27" />
+        <mark key="." line="136" column="26" />
+        <mark key="^" line="136" column="27" />
+      </file>
       <file name="/" timestamp="1653407158853">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="28" column="37" filename="$USER_HOME$/Documents/Sophomore/CS4120/Javalin/src/irgen/IRRearrange.kt" />
+      <jump line="115" column="4" filename="$USER_HOME$/Documents/Sophomore/CS4120/Javalin/src/irgen/IRRearrange.kt" />
+      <jump line="839" column="20" filename="$USER_HOME$/Documents/Sophomore/CS4120/Javalin/src/ralloc/AdvancedRalloc.kt" />
+    </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIHJlbW92ZUp1bXBzKHJlb3JkZXJlZEJsb2NrczogTGlzdDxJUlNlcT4pOiBMaXN0PElSU3RtdD4gewo=</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text encoding="base64">dGhl</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIHJlbW92ZShyZW9yZGVyZWRCbG9ja3M6IExpc3Q8SVJTZXE+KTogTGlzdDxJUlN0bXQ+IHsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIHJlbW92ZUp1bXBzKHJlb3JkZXJlZEJsb2NrczogTGlzdDxJUlNlcT4pOiBMaXN0PElSU3RtdD4gewo=</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">MTYz</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">dGhl</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">aWZh</text>
       </register>
     </registers>
   </component>

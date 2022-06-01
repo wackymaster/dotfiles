@@ -20,6 +20,7 @@ set scrolloff=5
 set autoindent
 set updatetime=300
 "set shell=powershell
+set clipboard+=unnamed
 "set nohlsearch
 let &undodir=stdpath('data').'/undodir'
 set undofile
@@ -39,10 +40,6 @@ call plug#begin(stdpath('data').'/plugged')
  Plug 'preservim/nerdcommenter'
  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
  Plug 'nvim-treesitter/playground'
- "Coc for specific langauges
- Plug 'neoclide/coc.nvim', {'branch': 'release', 'for': ['java', 'kotlin']}
-" Plug 'ms-jpq/coq_nvim'
-" Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
  "nvim-cmp autocomplete
  Plug 'saadparwaiz1/cmp_luasnip' 
  Plug 'L3MON4D3/LuaSnip' 
@@ -60,7 +57,6 @@ call plug#begin(stdpath('data').'/plugged')
  Plug 'lervag/vimtex' 
  "Navigation
  Plug 'christoomey/vim-tmux-navigator'
- Plug 'liuchengxu/vista.vim'
  "Fuzzy Finder
  Plug 'nvim-lua/plenary.nvim'
  Plug 'nvim-telescope/telescope.nvim'
@@ -79,7 +75,7 @@ call plug#begin(stdpath('data').'/plugged')
  Plug 'joshdick/onedark.vim'
  Plug 'nvim-lualine/lualine.nvim'
  "Plug 'doums/darcula'
- Plug 'dracula/vim'
+ "Plug 'dracula/vim'
  "Plug 'morhetz/gruvbox'
  "Plug 'arcticicestudio/nord-vim'
  "Status bar at bottom

@@ -5,23 +5,26 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias l='ls'
 alias e='nvim'
-alias rr='rofi -show run'
+# System settings
 alias ssn='sudo shutdown now'
 alias hib='systemctl hibernate'
 alias blu='bluetoothctl power on'
-alias jl='cd ~/Documents/Sophomore/CS4120/Javalin'
+alias lswifi='nmcli device wifi list ; echo "nmcli device wifi connect SSID password PASS"'
 # Audio settings
 alias sinks='pactl list sinks |& grep -E "Sink|Ports|analog-ou"'
 alias sinkhead='pactl set-sink-port 0 analog-output-headphones'
 alias sinkspeak='pactl set-sink-port 0 analog-output-speaker'
 alias setsink='pactl set-sink-port 0'
-
-alias lswifi='nmcli device wifi list ; echo "nmcli device wifi connect SSID password PASS"'
+# File exploring
 alias umnt='sudo umount /media/usb'
-alias lsusb='lsblk'
 alias ope='nautilus'
+alias cdusb="cd /media/usb"
+alias jl='cd ~/Documents/Sophomore/CS4120/Javalin'
+alias cdcorn='cd ~/Documents/Cohen_Research/CORN'
+alias ls='ls --color=auto'
+alias l='ls'
+alias rr='rofi -show run'
 
-PS1='\u-> \w$ '
+#PS1='\u-> \w$ '
+PS1='\[\e[0;1;38;5;220m\]\u\[\e[0;38;5;220m\]-\[\e[0;38;5;220m\]> \[\e[0;38;5;253m\]\w\[\e[0m\]$ \[\e[0m\]'
