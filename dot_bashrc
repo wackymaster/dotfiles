@@ -8,6 +8,7 @@
 alias e='nvim'
 # System settings
 alias ssn='sudo shutdown now'
+alias srn='sudo reboot now'
 alias hib='systemctl hibernate'
 alias blu='bluetoothctl power on'
 alias lswifi='nmcli device wifi list ; echo "nmcli device wifi connect SSID password PASS"'

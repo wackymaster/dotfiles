@@ -58,6 +58,7 @@ nitrogen --restore &
 picom &
 sxhkd &
 polybar &
+xsetroot -cursor_name left_ptr &
 exec bspwm
 # twm &
 # xclock -geometry 50x50-1+1 &

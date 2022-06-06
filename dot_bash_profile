@@ -9,3 +9,4 @@ fi
 
 # Pip packages
 export PATH=$PATH:~/.local/bin
+export DOTFILES=~/Projects/dotfiles/files.txt
