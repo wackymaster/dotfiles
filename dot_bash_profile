@@ -2,11 +2,10 @@
 # ~/.bash_profile
 #
 
+export DOTFILES=~/Projects/dotfiles/files.txt
+# Pip packages
+export PATH=$PATH:~/.local/bin
 [[ -f ~/.bashrc ]] && . ~/.bashrc
  if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 	startx
 fi
-
-# Pip packages
-export PATH=$PATH:~/.local/bin
-export DOTFILES=~/Projects/dotfiles/files.txt
