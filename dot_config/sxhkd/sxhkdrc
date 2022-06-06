@@ -18,6 +18,9 @@ super + Escape
 super + p
 	rofi-pass
 
+# Screenshot
+super + shift + s
+	flameshot gui
 #
 # bspwm hotkeys
 #
