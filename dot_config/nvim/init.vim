@@ -20,7 +20,7 @@ set scrolloff=5
 set autoindent
 set updatetime=300
 "set shell=powershell
-set clipboard+=unnamed
+set clipboard+=unnamedplus
 "set nohlsearch
 let &undodir=stdpath('data').'/undodir'
 set undofile
@@ -123,9 +123,9 @@ nnoremap <leader>n :noh<CR>
 nnoremap <C-a> ggVG
 nnoremap <leader>we :!explorer . <CR>
 "Copy-paste from system
-vnoremap <leader>y "*y
-vnoremap <leader>yy "*y|y
-nnoremap <leader>pp "*p
+vnoremap <leader>y "+y
+vnoremap <leader>yy "+y|y
+nnoremap <leader>pp "+p
 "Night-mode light-mode
 nnoremap <leader>nm :highlight Normal guibg=#26262a <CR>
 nnoremap <leader>lm :colorscheme onedark <CR>
