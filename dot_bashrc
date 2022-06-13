@@ -18,6 +18,7 @@ alias sinkhead='pactl set-sink-port 0 analog-output-headphones'
 alias sinkspeak='pactl set-sink-port 0 analog-output-speaker'
 alias setsink='pactl set-sink-port 0'
 # File exploring
+alias -- -='cd -'
 alias '..'='cd ..'
 alias '...'='cd ../..'
 alias umnt='sudo umount /media/usb'
