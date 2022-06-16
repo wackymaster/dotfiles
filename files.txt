@@ -1,0 +1,13 @@
+~/.bashrc
+~/.bash_profile
+~/.xinitrc
+~/.ideavimrc
+~/.gdbinit
+~/.config/alacritty/
+~/.config/bspwm/
+~/.config/chezmoi/
+~/.config/nvim/
+~/.config/polybar/
+~/.config/redshift/
+~/.config/rofi/
+~/.config/sxhkd/
