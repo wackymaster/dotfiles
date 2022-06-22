@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+
 alias e='nvim'
 # System settings
 alias ssn='sudo shutdown now'
@@ -21,6 +22,7 @@ alias setsink='pactl set-sink-port 0'
 alias -- -='cd -'
 alias '..'='cd ..'
 alias '...'='cd ../..'
+alias dw='cd ~/Downloads'
 alias umnt='sudo umount /media/usb'
 alias ope='nautilus'
 alias cdusb="cd /media/usb"
@@ -32,3 +34,7 @@ alias rr='rofi -show run'
 
 #PS1='\u-> \w$ '
 PS1='\[\e[0;1;38;5;220m\]\u\[\e[0;38;5;220m\]-\[\e[0;38;5;220m\]> \[\e[0;38;5;253m\]\w\[\e[0m\]$ \[\e[0m\]'
+
+# Use bash-completion, if available
+#[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+#    . /usr/share/bash-completion/bash_completion
