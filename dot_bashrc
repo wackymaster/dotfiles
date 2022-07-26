@@ -25,12 +25,14 @@ alias '...'='cd ../..'
 alias dw='cd ~/Downloads'
 alias umnt='sudo umount /media/usb'
 alias ope='nautilus'
+alias open='nautilus . & disown'
 alias cdusb="cd /media/usb"
 alias jl='cd ~/Documents/Sophomore/CS4120/Javalin'
 alias cdcorn='cd ~/Documents/Cohen_Research/CORN'
 alias ls='ls --color=auto'
 alias l='ls'
 alias rr='rofi -show run'
+alias emacs='vim'
 
 #PS1='\u-> \w$ '
 PS1='\[\e[0;1;38;5;220m\]\u\[\e[0;38;5;220m\]-\[\e[0;38;5;220m\]> \[\e[0;38;5;253m\]\w\[\e[0m\]$ \[\e[0m\]'
@@ -38,3 +40,4 @@ PS1='\[\e[0;1;38;5;220m\]\u\[\e[0;38;5;220m\]-\[\e[0;38;5;220m\]> \[\e[0;38;5;25
 # Use bash-completion, if available
 #[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
 #    . /usr/share/bash-completion/bash_completion
+. "$HOME/.cargo/env"
