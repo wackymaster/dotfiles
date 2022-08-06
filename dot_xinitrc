@@ -51,7 +51,9 @@ fi
 # Set natural scroll
 TPADID=$(xinput list | grep 'DELL097D:00 04F3:311C Touchpad' | cut -d '=' -f 2 | cut -f 1)
 SCROLLID=$(xinput list-props "${TPADID}" | grep "Natural Scrolling Enabled (" | cut -d '(' -f 2 | cut -d ')' -f 1)
+TAPCLICKID=$(xinput list-props "${TPADID}" | grep "Tapping Enabled" | cut -d '(' -f 2 | cut -d ')' -f 1)
 xinput set-prop "${TPADID}" "${SCROLLID}" 1
+xinput set-prop "${TPADID}" "${TAPCLICKID}" 1
 #xinput set-prop 11 310 1
 
 nitrogen --restore &
