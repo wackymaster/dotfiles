@@ -5,10 +5,17 @@
 # terminal emulator
 super + Return
 	alacritty
+# because my hand isn't large enough to do this one-handed :(
+alt + Return
+	alacritty
 
 # program launcher
 super + @space
 	rofi -show run	
+
+# File explorer
+super + shift + n
+	nautilus
 
 # make sxhkd reload its configuration files:
 super + Escape
