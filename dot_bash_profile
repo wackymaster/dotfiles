@@ -3,6 +3,7 @@
 #
 
 export DOTFILES=~/Projects/dotfiles/files.txt
+export HELP=~/Projects/bash_scripts/helpful_commands.txt
 # Pip packages
 export PATH=$PATH:~/.local/bin
 [[ -f ~/.bashrc ]] && . ~/.bashrc
