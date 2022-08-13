@@ -1,5 +1,6 @@
 #!/bin/sh
 
+export DESKTOP_SESSION=plasma
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
@@ -62,6 +63,7 @@ sxhkd &
 polybar &
 xsetroot -cursor_name left_ptr &
 exec bspwm
+#exec startplasma-desktop
 # twm &
 # xclock -geometry 50x50-1+1 &
 # xterm -geometry 80x50+494+51 &
