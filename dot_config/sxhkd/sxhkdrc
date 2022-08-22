@@ -15,7 +15,7 @@ super + @space
 
 # File explorer
 super + shift + n
-	nautilus
+	dolphin
 
 # make sxhkd reload its configuration files:
 super + Escape
