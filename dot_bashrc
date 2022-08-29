@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias e='nvim'
+alias se='sudo -E nvim'
 # System settings
 alias ssn='sudo shutdown now'
 alias srn='sudo reboot now'
@@ -28,8 +29,11 @@ alias open='dolphin . & disown'
 alias cdusb="cd /media/usb"
 alias jl='cd ~/Documents/Sophomore/CS4120/Javalin'
 alias cdcorn='cd ~/Documents/Cohen_Research/CORN'
+alias od='cd ~/OneDrive'
 alias cdta='cd ~/OneDrive/Junior/Fall/CS2112TA'
 alias cdtaw='cd ~/OneDrive/Junior/Fall/CS2112TA/2022fa'
+alias cdj='cd ~/OneDrive/Junior'
+alias cdjf='cd ~/OneDrive/Junior/Fall'
 
 alias ls='ls --color=auto'
 alias l='ls'
