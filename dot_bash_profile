@@ -5,6 +5,8 @@
 export DOTFILES=~/Projects/dotfiles/files.txt
 export HELP=~/Projects/bash_scripts/helpful_commands.txt
 export HELPSCRIPT=/usr/local/bin/what.py
+export ONEDRIVE=/home/will/OneDrive
+export OMVSCRIPT=/usr/local/bin/omv.py
 # Pip packages
 export PATH=$PATH:~/.local/bin
 [[ -f ~/.bashrc ]] && . ~/.bashrc
