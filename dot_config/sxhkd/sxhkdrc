@@ -6,8 +6,8 @@
 super + Return
 	alacritty
 # because my hand isn't large enough to do this one-handed :(
-alt + Return
-	alacritty
+#alt + Return
+#    alacritty
 
 # program launcher
 super + @space
