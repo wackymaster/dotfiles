@@ -121,7 +121,7 @@ nnoremap <leader>9 <C-W>>
 "Ease-of use
 nnoremap <leader>n :noh<CR>
 nnoremap <C-a> ggVG
-nnoremap <leader>we :!explorer . <CR>
+nnoremap <leader>we :!dolphin . & disown <CR>
 "Copy-paste from system
 vnoremap <leader>y "+y
 vnoremap <leader>yy "+y|y
